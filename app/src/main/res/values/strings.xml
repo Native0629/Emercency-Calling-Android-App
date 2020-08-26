@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Siae Cajamarca</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="record">Grabación</string>
+    <string name="stop">Parar Grabación</string>
+    <string name="description_info">Información</string>
+    <string name="permission_request">mensaje opcional para recomendaciones</string>
+    <string name="camera_error">Cámara no soportada por la versión</string>
+    <string name="facebook_app_id">1499554880211842</string>
+    <string name="fb_login_protocol_scheme">fb1499554880211842</string>
+    <string-array name="categoria">
+        <item>Seleccione una categoria</item>
+        <item>Delito </item>
+        <item>Queja</item>
+        <item>Apoyo de seguridad</item>
+        <item>Accidente</item>
+        <item>Falta</item>
+    </string-array>
+</resources>

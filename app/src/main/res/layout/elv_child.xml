@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_child"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/mascara_pregun"
+        android:hint=" hola como esats  hasdjhakj baskhdkj ahaks dk akashkjd kh akjsdhkjahdkj ka shdkjahsdkjh aksdhkashkahsk  skd k ks ks ks kdhkhskdhkkks sk s sks ks sks ks ks ks skkssdkshkd ss dksk ks sks sk kdhsk skhdkshkd sk dk ss  s kskdkskdhskd skds dkhsjkdhsdhskj"
+        android:justificationMode="inter_word"
+        android:paddingTop="5dp"
+        android:paddingStart="12dp"
+        android:paddingRight="12dp"
+        >
+    </TextView>
+</LinearLayout>

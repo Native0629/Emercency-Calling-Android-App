@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p_operador">
+
+    <ImageView
+        android:id="@+id/bgone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cajamarca3"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+  />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:src="@drawable/starter_logo_full">
+
+            </ImageView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Comp. por estado de incidencia en los últimos 2 días."
+            android:textColor="@color/blanco"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:lines="2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/fragmentreportar_caja">
+        </TextView>
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/comp_linea_x_dia"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/mascara_reporte2"
+            android:layout_marginRight="10dp"
+            android:layout_height="250dp">
+
+        </com.github.mikephil.charting.charts.BarChart>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Comp. por estado de incidencia en las últimas 2 sem."
+            android:textColor="@color/blanco"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:lines="2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/fragmentreportar_caja">
+        </TextView>
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/comp_linea_x_semana"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/mascara_reporte2"
+            android:layout_marginRight="10dp"
+            android:layout_height="250dp">
+
+        </com.github.mikephil.charting.charts.BarChart>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Comp. por estado de incidencia últimos 2 meses"
+            android:textColor="@color/blanco"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:lines="2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/fragmentreportar_caja">
+        </TextView>
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/comp_linea_x_mes"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/mascara_reporte2"
+            android:layout_marginRight="10dp"
+            android:layout_height="250dp">
+
+        </com.github.mikephil.charting.charts.BarChart>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Comparativos de categorias por tipo de día"
+            android:textColor="@color/blanco"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:lines="2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/fragmentreportar_caja">
+        </TextView>
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/comp_cat_x_grupo_dia"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/mascara_reporte2"
+            android:layout_marginRight="10dp"
+            android:layout_height="250dp">
+
+        </com.github.mikephil.charting.charts.BarChart>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

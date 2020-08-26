@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationMenu"
+        android:icon="@drawable/fragmentosos_home"
+        android:title="Menu" />
+    <item
+        android:id="@+id/navigationMyCourses"
+        android:icon="@drawable/sos_reportar"
+        android:title="S.O.S." />
+    <item
+        android:id="@+id/navigationSearch"
+        android:icon="@drawable/reportar"
+        android:title="Reportar" />
+    <item
+        android:id="@+id/navigationMyProfile"
+        android:icon="@drawable/fragmentsos_user"
+        android:title="Usuario" />
+
+</menu>

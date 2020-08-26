@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/validacion_inicio"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="30dp"
+            android:src="@drawable/starter_logo_full" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/validacion_inicio"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:id="@+id/imgperfil"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="0dp"
+                    android:src="@drawable/perfil" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="3dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtIdNav"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="19dp"
+                            android:text="Android Studio"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="#fff"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtCorreoNav"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="19dp"
+
+                            android:text="Android Studio"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="#fff"
+                            android:textSize="15dp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:background="@drawable/mascara_pregun">-->
+
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:background="@drawable/validacion_inicio"-->
+<!--        android:orientation="horizontal">-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="5dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="0dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+
+<!--                android:id="@+id/imgperfil"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="0dp"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:padding="0dp"-->
+<!--                android:src="@drawable/perfil" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:paddingLeft="3dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtIdNav"-->
+<!--                        android:layout_width="match_parent"-->
+
+<!--                        android:layout_height="19dp"-->
+<!--                        android:text="Android Studio"-->
+<!--                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+<!--                        android:textColor="#fff"-->
+<!--                        android:textSize="15dp" />-->
+
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtCorreoNav"-->
+<!--                        android:layout_width="match_parent"-->
+
+<!--                        android:layout_height="19dp"-->
+
+<!--                        android:text="Android Studio"-->
+<!--                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+<!--                        android:textColor="#fff"-->
+<!--                        android:textSize="15dp" />-->
+
+
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>

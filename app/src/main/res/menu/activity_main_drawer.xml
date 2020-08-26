@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/gp">
+        <item
+            android:id="@+id/nav_camera"
+
+            android:icon="@drawable/nombre"
+            android:title="Mis Datos" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/incidentes"
+            android:title="Mis Incidencias" />
+        <item
+            android:id="@+id/nav_preguntas"
+            android:icon="@drawable/faq"
+            android:title="Preguntas Frecuentes" />
+        <item
+            android:id="@+id/nav_sugerencias"
+            android:icon="@drawable/suge"
+            android:title="Sugerencias del Usuario" />
+        <item
+            android:id="@+id/nav_notifica"
+            android:icon="@drawable/not6"
+
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/nav_o_estadistica"
+            android:icon="@drawable/estadis"
+            android:title="Estadísticas" />
+
+        <item
+            android:id="@+id/nav_o_mapa"
+            android:icon="@drawable/mapa"
+            android:title="Mapa del delito" />
+        <item
+            android:id="@+id/nav_acerca"
+            android:icon="@drawable/info"
+            android:title="Acerca de SIAE" />
+
+    </group>
+
+    <item android:title="Cerrar Sesión"
+        android:icon="@drawable/desconectarte"
+        android:id="@+id/nav_cerrar"/>
+
+
+
+</menu>

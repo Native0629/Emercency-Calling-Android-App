@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/fragmentsos_card"
+        android:gravity="center|start"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:text=""
+            android:textColor="@color/negro"
+            android:textSize="30dp"
+            android:textStyle=""></TextView>-->
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="265dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="10dp"
+            android:text="0"
+            android:textColor="@color/negro"
+            android:textSize="9dp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/desc2"
+            android:layout_width="265dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="10dp"
+            android:text="0"
+            android:textColor="@color/negro"
+            android:textSize="9dp"
+            >
+
+        </TextView>
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:text=")"
+            android:textColor="@color/blanco"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+-->
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Fecha:"
+            android:textColor="@color/blanco"
+            android:textSize="13dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="20/20/2020 12:00"
+            android:textColor="@color/blanco"
+            android:textSize="13dp"
+
+            android:textStyle="bold"></TextView>
+
+-->
+
+    </LinearLayout>
+    <!--
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
+            android:background="@drawable/item_body_list"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/descripcion"
+                android:layout_width="235dp"
+                android:layout_height="match_parent"
+                android:hint="atropello atropello atropello atropello atropelloatropello atropello atropello atropelloatropello atropelloatropello atropelloatropello"
+                android:paddingLeft="10dp"
+                android:textColor="@color/negro"
+                android:textSize="13dp"></TextView>
+
+            <TextView
+                android:id="@+id/estado"
+                android:layout_width="99dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/esqui"
+                android:gravity="center"
+                android:text="Pendiente"
+                android:textColor="@color/blanco"
+                android:textSize="13dp"></TextView>
+
+
+        </LinearLayout>
+    -->
+
+</LinearLayout>

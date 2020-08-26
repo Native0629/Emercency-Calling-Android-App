@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/error"
+        android:text="Las contraseñas no coinciden."
+        android:textColor="@color/rojo"
+        android:visibility="invisible"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dni1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="Ingrese la nueva contraseña"
+        android:inputType="textPassword"
+        android:layout_below="@+id/error"
+        android:maxLength="8"
+        android:textColorHint="@color/gris" />
+
+    <EditText
+        android:id="@+id/dni2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:inputType="textPassword"
+        android:maxLength="8"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/dni1"
+        android:textColorHint="@color/gris"
+        android:hint="Repita la nueva contraseña"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:id="@+id/actualizar"
+        android:gravity="right"
+        android:text="Aceptar       "
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dni2"
+        android:textColor="@color/negro"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:fontFamily="sans-serif"
+        />
+
+
+
+</RelativeLayout>

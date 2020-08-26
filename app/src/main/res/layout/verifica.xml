@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="ingresa"
+            android:id="@+id/codigov"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+    </LinearLayout>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/codigov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingresa código de verificación" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/verifica"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/com_facebook_button_text_color"
+            android:background="@drawable/esqui"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+
+            android:text="Verificar código de verificación" />
+
+    </LinearLayout>
+</LinearLayout>

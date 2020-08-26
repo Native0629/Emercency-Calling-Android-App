@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_acercade_siae"
+    android:orientation="vertical"
+    android:background="@drawable/cajamarca3"
+    >
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgoverlay" />
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:src="@drawable/starter_logo_full">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/mascara_reporte1"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="18dp"
+            android:text="Estimado "
+            android:textColor="@color/negro"
+            android:textSize="16dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/link"
+            android:layout_marginRight="20dp"
+            android:paddingBottom="18dp"
+
+            android:background="@drawable/mascara_reporte1"
+            android:paddingLeft="10dp"
+            android:text="Ponemos a su disposición el manual de usuario, una guía rápida y práctica para conocer las funcionalidades del aplicativo móvil SIAE Cajamarca, en el encontrará temas como: reportar incidencias, SOS, notificaciones para el ciudadano y más. También contamos con una sección de preguntas frecuentes la cual puedes revisar aquí. "
+            android:textColor="@color/negro"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/manual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/mascara_reporte1"
+                android:drawableStart="@drawable/manual"
+                android:padding="10dp"
+                android:text="Manual de Usuario"
+
+                android:textSize="20dp"></Button>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

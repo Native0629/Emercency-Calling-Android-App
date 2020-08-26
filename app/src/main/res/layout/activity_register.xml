@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.siae.siaecajamarca.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/bgone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cajamarca3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgoverlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="55dp"
+                    android:paddingRight="55dp"
+                    android:src="@drawable/starter_logo_full"
+
+                    >
+
+                </ImageView>
+
+                <!--            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="140dp"
+                                android:layout_height="25dp"
+                                android:layout_marginLeft="38dp"
+                                android:layout_marginTop="3dp"
+                                android:src="@drawable/starter_cajamarca"></ImageView>
+
+                            <ImageView
+                                android:id="@+id/imageView6"
+                                android:layout_width="51dp"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="-68dp"
+                                android:layout_marginTop="-33dp"
+                                android:src="@drawable/starter_siae"></ImageView>-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nom_fb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="320dp"
+
+                    android:layout_height="60dp"
+                    android:background="@drawable/login_caja_texto"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:id="@+id/img"
+                        android:layout_width="47dp"
+                        android:layout_height="47dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="3dp"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <!--<ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:tint="#fff"
+                        android:src="@mipmap/ic_launcher"
+                        ></ImageView>-->
+                    <EditText
+                        android:id="@+id/txtnombres"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@android:color/transparent"
+                        android:hint="Nombres"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingLeft="13dp"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ape_fb"
+                android:paddingTop="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/login_caja_texto">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:tint="#fff"
+                        android:src="@drawable/login_carnet_identidad"
+                        ></ImageView>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtapellidos"
+                        android:text=""
+                        android:hint="Apellidos"
+                        android:textColorHint="#fff"
+                        android:textSize="20dp"
+                        android:paddingLeft="13dp"
+                        android:layout_marginTop="15dp"
+                        android:inputType="text"
+                        android:textColor="#fff"
+                        android:maxLines="1"
+                        android:background="@android:color/transparent" />
+
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/login_caja_texto"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/register_message"
+                        android:tint="#fff"></ImageView>
+
+                    <EditText
+                        android:id="@+id/txtcorreo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@android:color/transparent"
+                        android:hint="Correo electrónico"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingLeft="13dp"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/login_caja_texto"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/login_telefono"
+                        android:tint="#fff"></ImageView>
+
+                    <EditText
+                        android:id="@+id/txtcelular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@android:color/transparent"
+                        android:hint="Celular"
+                        android:inputType="number"
+                        android:maxLength="9"
+                        android:maxLines="1"
+                        android:paddingLeft="13dp"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/login_caja_texto"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/dni_2"></ImageView>
+
+                    <EditText
+                        android:id="@+id/txtdni"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@android:color/transparent"
+                        android:hint="D.N.I."
+                        android:inputType="number"
+                        android:maxLength="8"
+                        android:maxLines="1"
+                        android:paddingLeft="13dp"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/codigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/login_caja_texto"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/yes"></ImageView>
+
+                    <EditText
+                        android:id="@+id/codigov"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@android:color/transparent"
+                        android:hint="Código verificación"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:maxLines="1"
+                        android:paddingLeft="13dp"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/starter_rectangulo"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvLogin"
+
+                        android:text="VALIDACIÓN"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="@color/blanco"
+                        android:textSize="18dp">
+
+                    </TextView>
+<!--                    <ImageView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/login_registrate"></ImageView>-->
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--<FrameLayout
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/login_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="30dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+
+                    android:background="@drawable/esqui"
+                    android:id="@+id/fb"
+                    android:layout_gravity="center"
+                    android:onClick="onClickFacebook"
+                    android:textAllCaps="false"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:text="REGISTRARSE CON FACEBOOOK"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:layout_height="45dp"
+                    />
+
+
+
+            </FrameLayout>
+
+-->
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
